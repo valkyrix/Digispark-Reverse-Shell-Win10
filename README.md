@@ -21,7 +21,7 @@ This script has been optimised to run on the digisparks limited memory requireme
 LED Run-status: The LED will blink to state the code has started running. Once the code execution has completed the LED will stay illuminated and thus the device can be unplugged.
 
 replace `IP` and `PORT` with your own values.
-```c
+```Arduino
 #include "DigiKeyboard.h"
 /* Init function */
 //script created by valkyrix.github.io
