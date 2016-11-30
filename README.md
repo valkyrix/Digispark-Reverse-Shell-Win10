@@ -6,7 +6,7 @@
 
 I recommend wrapping the pcb with electrical tape with small holes for the LED's to avoid shortages when transporting the device such as in the image below.
 
-<img src="https://github.com/valkyrix/digispark-reverse-shell-windows-10/raw/master/digispark.jpg" align="left" height="400" width="400" >
+<img src="https://github.com/valkyrix/digispark-reverse-shell-windows-10/raw/master/digispark.jpg" align="middle" height="400" width="400" >
 
 The listening machine will need to be running before the script is run.
 
