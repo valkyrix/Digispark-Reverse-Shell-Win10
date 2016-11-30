@@ -1,8 +1,12 @@
 # Digispark Arduino Reverse Shell for windows 10
 
-### Although designed for windows 10 this script will work for windows vista onwards.
+#### Although designed for windows 10 this script will work for windows vista onwards.
 
 ## A digispark arduino script to pop a reverse hidden shell to a specified ip address using netcat.
+
+I recommend wrapping the pcb with electrical tape with small holes for the LED's to avoid shortages when transporting the device such as in the image below.
+
+<img src="https://github.com/valkyrix/digispark-reverse-shell-windows-10/raw/master/digispark.jpg" align="left" height="400" width="400" >
 
 The listening machine will need to be running before the script is run.
 
@@ -16,7 +20,7 @@ This script has been optimised to run on the digisparks limited memory requireme
 
 LED Run-status: The LED will blink to state the code has started running. Once the code execution has completed the LED will stay illuminated and thus the device can be unplugged.
 
-replace *IP* and *PORT* with your own values.
+replace `IP` and `PORT` with your own values.
 ```c
 #include "DigiKeyboard.h"
 /* Init function */
