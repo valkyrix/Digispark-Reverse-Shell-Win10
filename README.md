@@ -13,6 +13,7 @@ The listening machine will need to be running before the script is run.
 This script can be easily modified to pop a reverse meterpreter shell instead of netcat.
 
 link to download netcat has been hardcoded but can be replaced if wanted. To do this change the url to a direct download url of nc64.exe.
+you can find standalone netcat from here: https://eternallybored.org/misc/netcat/
 
 This script has been optimised to run on the digisparks limited memory requirements.
 
